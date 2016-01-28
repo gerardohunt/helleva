@@ -313,3 +313,71 @@ body{
     left: 267px;
     z-index: 99999;
 }
+#cuadro1{
+	position: absolute;
+    top: 0px;
+    left: 0;
+}
+#cuadro2{
+	position: absolute;
+    left: 205px;
+    bottom: 355px;
+}
+#cuadro3{
+	position: absolute;
+    bottom: 355px;
+    left: 410px;
+}
+#cuadro4{
+	position: absolute;
+    bottom: 560px;
+    left: 410px;
+}
+#cuadro5{
+	position: absolute;
+    top: 0;
+    left: 615px;
+}
+#cuadro6{
+	position: absolute;
+    top: 0;
+    right: 0;
+}
+#cuadro7{
+	position: absolute;
+    bottom: 100px;
+    left: 245px;
+}
+#cuadro8{
+	position: absolute;
+    left: 225px;
+    top: 30px;
+}
+#cuadro9{
+	position: absolute;
+    right: 221px;
+    top: 232px;
+}
+#cuadro10{
+	position: absolute;
+    bottom: 33px;
+    left: 244px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
