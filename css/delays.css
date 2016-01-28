@@ -132,10 +132,16 @@
 	animation-delay: 4.7s;
 	animation-duration: 2s;
 }
-#img13{
-	webkit-animation-delay: 5.5s;
+#img8new{
+webkit-animation-delay: 5.5s;
 	-o-animation-delay: 5.5s;
 	animation-delay: 5.5s;
+	animation-duration: 2s;
+}
+#img13{
+	webkit-animation-delay: 3.5s;
+	-o-animation-delay: 3.5s;
+	animation-delay: 3.5s;
 	animation-duration: 2s;
 }
 #img1{

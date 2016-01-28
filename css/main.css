@@ -107,7 +107,11 @@ body{
     top: 35px;
     left: 95px;
 }
-
+#img8new{
+	position: absolute;
+    left: -13px;
+    bottom: 148px;
+}
 /*slide 2*/
 #img10{
 	position: absolute;
@@ -116,13 +120,13 @@ body{
 }
 #img11{
 	position: absolute;
-    left: 448px;
-    top: 167px;
+    left: 519px;
+    top: 138px;
 }
 #img12{
 	position: absolute;
-    left: 183px;
-    top: 242px;
+    left: 755px;
+    top: 136px;
 }
 #img14{
 	position: absolute;
@@ -131,8 +135,8 @@ body{
 }
 #img13{
 	position: absolute;
-    left: 0;
-    bottom: 149px;
+    left: 225px;
+    bottom: 347px;
 }
 #img6{
 	position: absolute;
