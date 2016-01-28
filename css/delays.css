@@ -1,5 +1,45 @@
-#btnSig{
+#btnSig, #btnSig1, #btnAnt1, #logo{
+	-webkit-animation-delay: .9s;
+	-o-animation-delay: .9s;
+	animation-delay: .9s;
+}
+#titulo{
+	-webkit-animation-delay: 1s;
+	-o-animation-delay: 1s;
+	animation-delay: 1s;
+}
+#barramenu{
 	-webkit-animation-delay: .7s;
 	-o-animation-delay: .7s;
 	animation-delay: .7s;
+}
+#linea{
+	-webkit-animation-delay: 1.2s;
+	-o-animation-delay: 1.2s;
+	animation-delay: 1.2s;
+}
+#img2{
+	-webkit-animation-delay: 1.7s;
+	-o-animation-delay: 1.7s;
+	animation-delay: 1.7s;
+}
+#img3{
+	-webkit-animation-delay: 2.3s;
+	-o-animation-delay: 2.3s;
+	animation-delay: 2.3s;
+}
+#img1{
+	-webkit-animation-delay: 2.9s;
+	-o-animation-delay: 2.9s;
+	animation-delay: 2.9s;
+}
+#img4{
+	webkit-animation-delay: 3.5s;
+	-o-animation-delay: 3.5s;
+	animation-delay: 3.5s;
+}
+#img5{
+	webkit-animation-delay: 4.1s;
+	-o-animation-delay: 4.1s;
+	animation-delay: 4.1s;
 }

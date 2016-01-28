@@ -174,7 +174,7 @@ body:after {
   float: right;
   width: 30px;
   height: 30px;
-  background: url(../generales/close.png) top right no-repeat;
+  background: url(../General/close.png) top right no-repeat;
   text-align: right;
   outline: none;
 }
@@ -188,12 +188,12 @@ body:after {
 }
 
 .lb-closeContainer .lb-close{
-      background-image: url(../generales/close.png);
+      background-image: url(../General/close.png);
     display: block;
     width: 30px;
     height: 30px;
     padding: 5px;
     background-repeat: no-repeat;
     background-position: 50%;
-    background-color: #FFF;
+    background-color: transparent;
 }

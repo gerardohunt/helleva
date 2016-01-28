@@ -17,3 +17,115 @@ body{
 	bottom:10px;
 	width: 27px;
 }
+#btnAnt{
+	height: 27px;
+	right:21px;
+	position: absolute;
+	bottom:10px;
+	width: 27px;
+}
+#contenedor3 {
+	background-color: #fff;
+	display: block;
+	height: 768px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	width: 1024px;
+}
+#btnSig1{
+	height: 27px;
+	right:16px;
+	position: absolute;
+	top:37px;
+	width: 27px;
+}
+#btnAnt1{
+	height: 27px;
+	right: 42px;
+	position: absolute;
+	top:37px;
+	width: 27px;
+}
+#barramenu{
+	position: absolute;
+	left:0;
+	top:17px;
+}
+#logo{
+	position: absolute;
+    bottom: 25px;
+    right: 20px;
+}
+#linea{
+	position: absolute;
+    left: 0;
+    bottom: 121px;
+}
+#trigger-overlay {
+	height: 49px;
+	left: 10px;
+	position: absolute;
+	top: 24px;
+	width: 49px;
+	background: url(../General/Boton_Menu.png) no-repeat center center;
+	overflow: hidden;
+	border: none;
+}
+#img2{
+	position: absolute;
+    left: 276px;
+    top: 73px;
+}
+#img3{
+	position: absolute;
+    left: 269px;
+    top: 223px;
+}
+#img1{
+	position: absolute;
+    left: 352px;
+    top: 335px;
+}
+#img4{
+	position: absolute;
+    right: 689px;
+    top: 387px;
+}
+#img5{
+	position: absolute;
+    right: 0;
+    top: 489px;
+}
+#titulo{
+	position: absolute;
+    top: 38px;
+    left: 95px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
