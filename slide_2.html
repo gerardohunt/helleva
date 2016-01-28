@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Helleva</title>
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/delays.css">
+  <link rel="stylesheet" type="text/css" href="css/lightbox.css">
+  <script src="js/modernizr.custom.js"></script>
+</head>
+<body id="touch">
+  <div id="contenedor3">
+
+     <div id="barramenu" class="animated fadeInLeft"><img src="General/Barra_sup.png" style="height: 62.5px;width: 1024px;"></div>
+
+
+     <div id="btnAnt1" class="animated fadeIn"><a href="slide_1.html"><img src="General/Boton_atras.png" style="height: 25px;width: 26px;"></a></div>
+
+    <div id="btnSig1" class="animated fadeIn"><a href="slide_3.html"><img src="General/Boton_adelante.png" style="height: 25px;width: 26px;"></a></div>
+
+    <button type="button" id="trigger-overlay" class="animated fadeInLeft"></button>
+
+    <div id="titulo1" class="animated fadeInDown"><img src="Slide3/Txt_perfilseg.png" style="height: 30px;width: 91.5px;"></div>
+
+
+
+    <div id="img15" class="animated zoomIn">
+      <a class="example-image-link" href="Slide1/Graf_1b.png" data-lightbox="lightbox">
+        <img src="Slide1/Graf_1.png" style="height: 287px;width: 295.5px;">
+      </a>
+    </div>
+
+
+
+
+    <div id="img6" class="animated zoomIn"><img src="Slide2/Imag_1.png" style="height: 115.5px;width: 131.5;"></div>
+
+    <div id="img7" class="animated zoomIn"><img src="Slide2/Imag_2.png" style="height: 115.5px;width: 131.5;"></div>
+
+    <div id="img8" class="animated fadeInLeft"><img src="Slide2/Imag_3.png" style="height: 115px;width: 44px;"></div>
+
+
+
+    <div id="img9" class="animated fadeInUp"><img src="Slide2/Imag_4.png" style="height:55.5px; width: 152px;"></div>
+
+    <div id="img10" class="animated fadeInLeft"><img src="Slide2/Txt_1.png" style="height: 168px;width: 442.5px;"></div>
+
+    <div id="img11" class="animated fadeInRight"><img src="Slide2/Txt_2.png" style="height: 72.5px;width: 474px;"></div>
+
+    <div id="img12" class="animated fadeInUp">
+      <img src="Slide2/Txt_3.png" style="height: 173px;width: 627.5px;"></div>
+
+    <div id="img13" class="animated fadeInLeft">
+      <img src="Slide2/Txt_4.png" style="height: 115px;width: 313px;"></div>
+
+    <div id="img14" class="animated fadeInRight">
+      <img src="Slide2/Txt_5.png" style="height: 227px;width: 214.5px;"></div>
+
+
+    <div id="linea" class="animated fadeIn"><img src="General/Linea_inf.png" style="height: 6.5px;width: 1024px;"></div>
+
+     <div id="logo" class="animated fadeInUp"><img src="General/LogoHelleva.png" style="height: 75.5px;width: 152.5px;"></div>
+  
+
+  </div>  
+  <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/lightbox.js"></script>
+  <script type="text/javascript" src="js/hammer.min.js"></script>
+  <script>
+    
+    Hammer(document.getElementById('touch')).on('swipeleft', function(e) {
+           window.location.href = "slide_3.html";
+    });
+    Hammer(document.getElementById('touch')).on('swiperight', function(e) {
+           window.location.href = "slide_1.html";
+    });
+
+  </script>
+
+
+</body>
+</html>
