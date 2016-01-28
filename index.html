@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Helleva</title>
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/delays.css">
+  <script src="js/modernizr.custom.js"></script>
+</head>
+<body id="touch">
+  <div id="contenedor1"><img src="Portada/Portada.png" style="height: 768px;width: 1024px;">
+
+    <div id="btnSig" class="animated fadeInUp"><a href="slide_1.html"><img src="General/Boton_adelante.png" style="height: 25px;width: 26px;"></a></div>
+  
+
+  </div>  
+  <script type="text/javascript" src="js/hammer.min.js"></script>
+  <script>
+    
+    Hammer(document.getElementById('touch')).on('swipeleft', function(e) {
+           window.location.href = "slide_1.html";
+    });
+    
+
+  </script>
+
+
+</body>
+</html>
