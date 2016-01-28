@@ -54,7 +54,7 @@ body{
 }
 #logo{
 	position: absolute;
-    bottom: 25px;
+    bottom: 10px;
     right: 20px;
 }
 #linea{
@@ -74,27 +74,27 @@ body{
 }
 #img2{
 	position: absolute;
-    left: 276px;
+    left: 99px;
     top: 73px;
 }
 #img3{
 	position: absolute;
-    left: 269px;
-    top: 223px;
+    left: 103px;
+    top: 233px;
 }
 #img1{
 	position: absolute;
-    left: 352px;
+    left: 655px;
     top: 335px;
 }
 #img4{
 	position: absolute;
-    right: 689px;
+    right: 657px;
     top: 387px;
 }
 #img5{
 	position: absolute;
-    right: 0;
+    right: 359px;
     top: 489px;
 }
 #titulo{
