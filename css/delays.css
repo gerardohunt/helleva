@@ -110,7 +110,7 @@
 	-o-animation-delay: 3s;
 	animation-delay: 3s;
 }
-#img5, #img8, #img17, #img24, #img29{
+#img5, #img8, #img24, #img29{
 	webkit-animation-delay: 3.5s;
 	-o-animation-delay: 3.5s;
 	animation-delay: 3.5s;
@@ -119,6 +119,12 @@
 	webkit-animation-delay: 4.1s;
 	-o-animation-delay: 4.1s;
 	animation-delay: 4.1s;
+}
+#img17{
+	webkit-animation-delay: 3.5s;
+	-o-animation-delay: 3.5s;
+	animation-delay: 3.5s;
+	animation-duration: 5s;
 }
 #img7{
 	webkit-animation-delay: 4.1s;
