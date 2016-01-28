@@ -156,22 +156,160 @@ body{
 }
 
 
+#img19{
+	position: absolute;
+    top: 120px;
+    left: 0;
+}
+#img20{
+	position: absolute;
+    left: 192px;
+    top: 196px;
+}
+#img15{
+	position: absolute;
+    top: 153px;
+    right: 186px;
+}
+#img21{
+	position: absolute;
+    bottom: 145px;
+    left: 0;
+}
+#img16{
+	position: absolute;
+    bottom: 153px;
+    left: 491px;
+}
+#img17{
+	position: absolute;
+    bottom: 153px;
+    left: 508px;
+}
+#img18{
+	position: absolute;
+    bottom: 153px;
+    left: 973px;
+}
 
+#img25{
+	position: absolute;
+    top: 100px;
+    left: 271px;
+}
 
+#img26{
+	position: absolute;
+    top: 277px;
+    left: 303px;
+}
+#img27{
+	position: absolute;
+    top: 390px;
+    left: 244px;
+}
+#img22{
+	position: absolute;
+    top: 529px;
+    left: 17px;
+}
+#img23{
+	position: absolute;
+    top: 530px;
+    left: 58px;
+}
+#img24{
+	position: absolute;
+    top: 530px;
+    left: 516px;
+}
+#img28{
+	position: absolute;
+    top: 33px;
+    left: 39px;
+}
+#img29{
+	position: absolute;
+    right: 333px;
+    bottom: 110px;
+}
+#img30{
+	position: absolute;
+    right: 124px;
+    bottom: 308px;
+}
+#img31{
+	position: absolute;
+    right: 357px;
+    bottom: 205px;
+}
 
+#img40{
+	position: absolute;
+    top: 94px;
+    left: 79px;
+}
+#img41{
+	position: absolute;
+    top: 482px;
+    left: 79px;
+}
+#img42{
+	position: absolute;
+    top: 527px;
+    left: 79px;
+}
+.overlay {
+	position: absolute;
+	width: 1024px;
+	height: 768px;
+	margin-left:-512px;
+	top: 0;
+	left: 50%;
+	background:  #fff;;
+}
+.overlay .overlay-close {
+	width: 80px;
+	height: 80px;
+	left: 10px;
+	position: absolute;
+	top: 18px;
+	/*overflow: hidden;*/
+	border: none;
+	background: url(../Slide7/Boton_cerrar.png) no-repeat center center;
+	/*text-indent: 200%;*/
+	color: transparent;
+	outline: none;
+	z-index: 100;
+}
+/* Effects */
+.overlay-hugeinc {
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+	transition: opacity 0.5s, visibility 0s 0.5s;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.overlay-hugeinc.open {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+}
+#fondo{
+	position: absolute;
+    top: 0;
+    left: 0;
+}
+#menutitulo{
+	position: absolute;
+    top: 142px;
+    left: 116px;
+    z-index: 99999;
+}
+#menuprincipal{
+	position: absolute;
+    top: 263px;
+    left: 267px;
+    z-index: 99999;
+}

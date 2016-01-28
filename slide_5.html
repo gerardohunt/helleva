@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Helleva</title>
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/delays.css">
+  <link rel="stylesheet" type="text/css" href="css/lightbox.css">
+  <script src="js/modernizr.custom.js"></script>
+</head>
+<body id="touch">
+   <div id="contenedor1" class="animated fadeIn"><img src="Slide5/img01.png" style="height: 768px;width: 1024px;">
+
+
+
+     <div id="barramenu" class="animated fadeInLeft"><img src="Slide4/barra.png" style="height: 62.5px;width: 1024px;"></div>
+
+
+     <div id="btnAnt1" class="animated fadeIn"><a href="slide_4.html"><img src="General/Boton_atras.png" style="height: 25px;width: 26px;"></a></div>
+
+    <div id="btnSig1" class="animated fadeIn"><a href="slide_6.html"><img src="General/Boton_adelante.png" style="height: 25px;width: 26px;"></a></div>
+
+    <button type="button" id="trigger-overlay" class="animated fadeInLeft"></button>
+
+
+
+    <div id="titulo1" class="animated fadeInDown"><img src="Slide4/title.png" style="width:264px; height:30px"></div>
+
+
+    
+
+    <div id="img28" class="animated zoomIn"><img src="Slide5/img02.png" style="width:825px; height:619px"></div>
+
+
+    <div id="img29" class="animated fadeInUp"><img src="Slide5/img04.png" style="width:338.5px; height:62.5px"></div>
+
+    
+
+    <div id="img30" class="animated fadeInLeft"><img src="Slide5/txt01.png" style="width:263.5px; height:259.5px"></div>
+
+
+
+    <div id="img31" class="animated fadeIn"><img src="Slide5/txt02.png" style="height:48.5px; width: 210px;"></div>
+
+    
+    
+
+
+     <div id="logo" class="animated fadeInUp"><img src="General/LogoHelleva.png" style="height: 75.5px;width: 152.5px;"></div>
+  
+
+
+
+   </div>
+
+    
+
+    
+  </div>  
+  <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/lightbox.js"></script>
+  <script type="text/javascript" src="js/hammer.min.js"></script>
+  <script>
+    
+    Hammer(document.getElementById('touch')).on('swipeleft', function(e) {
+           window.location.href = "slide_6.html";
+    });
+    Hammer(document.getElementById('touch')).on('swiperight', function(e) {
+           window.location.href = "slide_4.html";
+    });
+
+  </script>
+
+
+</body>
+</html>
