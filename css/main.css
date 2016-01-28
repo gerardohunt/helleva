@@ -345,13 +345,13 @@ body{
 }
 #cuadro7{
 	position: absolute;
-    bottom: 100px;
+    bottom: 136px;
     left: 245px;
 }
 #cuadro8{
 	position: absolute;
     left: 225px;
-    top: 30px;
+    top: 41px;
 }
 #cuadro9{
 	position: absolute;
@@ -360,10 +360,14 @@ body{
 }
 #cuadro10{
 	position: absolute;
-    bottom: 33px;
+    bottom: 69px;
     left: 244px;
 }
-
+#cuadro11{
+	position: absolute;
+    top: 718px;
+    left: 0;
+}
 
 
 
